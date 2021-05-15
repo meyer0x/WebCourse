@@ -1,0 +1,64 @@
+/* ICI C'EST LE MEDIA CENTER ! RESPONSIVE UNIQUEMENT */
+/*Laptop = 1400px */
+
+/* Tablette allongé */
+@media screen and (max-width: 1024px){
+
+    .s2 .content{
+        width: 100%;
+    }
+    .s5 .valeur{
+        height: 30vh;
+    }
+    .s3{
+        display: inline;
+    }
+    .s3 .item h2{
+        margin-bottom: 0;
+    }
+
+    .s3 .item {
+        width: 50%;
+        margin: auto;
+    }
+    .s3 .right{
+        margin-left: 5vw;
+        height: 35vh;
+    }
+    .s4{
+        height: 120vh;
+        background-size: 80%;
+        border-right: 3vh solid white;
+        border-bottom: 10vh solid white;
+        background-position: bottom;
+        margin-top: 10vh;
+    }
+    .s4 .content{
+        width: 100%;
+    }
+    .s4 h2{
+        margin-bottom: 0;
+    }
+
+}
+
+/* Tablette debout*/
+
+@media screen and (max-width: 959px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 500px){
+
+}
+
+@media screen and (max-width: 400px){
+
+}

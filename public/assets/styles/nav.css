@@ -1,0 +1,217 @@
+
+/* Nav */
+.none{
+    display: none;
+}
+.nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.logo a{
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #371CA9;
+}
+.nav ul:not(.submenu){
+    display: flex;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.nav ul:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.nav ul li{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0C0627;
+    padding-left: 26px;
+    text-align: center;
+}
+
+.nav ul li a button{
+    background: #371CA9;
+    width: 165%;
+    height: 7vh;
+    border: 2px solid #371CA9;
+    box-sizing: border-box;
+    border-radius: 90px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav .duo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nav .duo .paragraphe a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #706C81;
+    padding-right: 0px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    padding: 12px 0;
+}
+nav div ul li:hover .submenu{
+    display: block;
+}
+.submenu .deroule{
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    padding-bottom: 10px;
+    margin:0;
+}
+/* Nav FIN */
+
+/* FOOTER DEBUT*/
+
+footer{
+    background: #F5F3FC;
+    height: 20vh;
+    margin-top: 140px;
+    padding: 30px 0px;
+    width: 100%;
+    position: absolute;
+}
+.none{
+    display: none;
+}
+
+footer .logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .logo a{
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #371CA9;
+}
+footer .logo input[type="email"]{
+  background: #FFFFFF;
+  border: 1px solid #A29CBA;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #706C81;
+  width: 50vh;
+  margin:auto;
+  margin-right: 20px;
+
+}
+footer .logo input[type="button"]{
+  background: #4021C5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #FFFFFF;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+footer .logo form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+footer ul li{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0C0627;
+    padding-left: 26px;
+    text-align: center
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+footer ul:after{
+    content:"";
+    display: table;
+    clear:both;
+
+}
+footer ul li a button{
+    background: #371CA9;
+    height: 5vh;
+    border: 2px solid #371CA9;
+    box-sizing: border-box;
+    border-radius: 90px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 165%;
+}
+footer .coder h1{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #706C81;
+
+}
+footer .bot{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: -1vh;
+}
+footer ul li:hover .submenu{
+    display: block;
+  
+}
+.submenu .deroule{
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    padding-bottom: 10px;
+    margin:0;
+}
+footer .ml{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+}
+footer .ml a:nth-child(1){
+    margin-right: 50px;
+}
+footer .ml a:nth-child(2){
+    margin-right: 50px;
+}
